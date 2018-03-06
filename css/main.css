@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+.icon-sprite, .icon-animation, .icon-barcode, .icon-bash, .icon-battery, .icon-bulb, .icon-chat, .icon-doggonauts, .icon-loveletter, .icon-spritesheet, .icon-tree {
+  background-image: url('../img/icon-s0350d14bbc.png');
+  background-repeat: no-repeat;
+}
+
+.icon-animation {
+  background-position: 0 -256px;
+}
+.icon-animation:hover, .icon-animation.animation-hover {
+  background-position: 0 0;
+}
+
+.icon-barcode {
+  background-position: 0 -768px;
+}
+.icon-barcode:hover, .icon-barcode.barcode-hover {
+  background-position: 0 -512px;
+}
+
+.icon-bash {
+  background-position: 0 -1280px;
+}
+.icon-bash:hover, .icon-bash.bash-hover {
+  background-position: 0 -1024px;
+}
+
+.icon-battery {
+  background-position: 0 -1792px;
+}
+.icon-battery:hover, .icon-battery.battery-hover {
+  background-position: 0 -1536px;
+}
+
+.icon-bulb {
+  background-position: 0 -2304px;
+}
+.icon-bulb:hover, .icon-bulb.bulb-hover {
+  background-position: 0 -2048px;
+}
+
+.icon-chat {
+  background-position: 0 -2816px;
+}
+.icon-chat:hover, .icon-chat.chat-hover {
+  background-position: 0 -2560px;
+}
+
+.icon-doggonauts {
+  background-position: 0 -3328px;
+}
+.icon-doggonauts:hover, .icon-doggonauts.doggonauts-hover {
+  background-position: 0 -3072px;
+}
+
+.icon-loveletter {
+  background-position: 0 -3840px;
+}
+.icon-loveletter:hover, .icon-loveletter.loveletter-hover {
+  background-position: 0 -3584px;
+}
+
+.icon-spritesheet {
+  background-position: 0 -4352px;
+}
+.icon-spritesheet:hover, .icon-spritesheet.spritesheet-hover {
+  background-position: 0 -4096px;
+}
+
+.icon-tree {
+  background-position: 0 -4864px;
+}
+.icon-tree:hover, .icon-tree.tree-hover {
+  background-position: 0 -4608px;
+}
+
+html {
+  background: black;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: white;
+  font-family: 'Pacifico', cursive;
+  font-size: 2em;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+li a {
+  display: inline-block;
+  width: 256px;
+  height: 256px;
+}
+li a span {
+  position: absolute;
+  top: -9999em;
+  left: -9999em;
+}

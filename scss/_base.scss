@@ -1,0 +1,35 @@
+@import 'icon/*.png';
+@include all-icon-sprites;
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+html{
+	background: black;
+}
+.container{
+	max-width: 960px;
+	margin: 0 auto;
+}
+h1{
+	color: white;
+	font-family: 'Pacifico', cursive;
+	font-size: 2em;
+	text-align: center;
+}
+li {
+  list-style:none;
+  display: inline-block;
+  padding: 10px;
+    a {
+      display: inline-block;
+      width: 256px;
+      height: 256px;
+      
+
+      span {
+        position: absolute;
+        top: -9999em;
+        left: -9999em;
+        
+      }//go
+  }//icons
+}//li
